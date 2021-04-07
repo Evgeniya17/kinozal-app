@@ -1,0 +1,50 @@
+#user-name, #user-email{
+    margin: 10px 20px 10px 100px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid rgb(211, 211, 211);
+    width: 700px;
+    height:20px;
+    font-size: 14px;
+}
+#user-comment{
+    margin: 10px 20px 50px 100px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    width: 700px;
+    height:200px;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+}
+#send-btn{
+    float: right;
+    color: #fff;
+    background-color: rgb(248, 178, 47);
+    border: 1px solid rgb(248, 178, 47);
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#send-btn:hover{
+    background-color: rgb(238, 145, 38);
+    border: 1px solid rgb(238, 145, 38);
+    cursor: pointer;
+}
+#send-btn:focus{
+    outline: none;
+}
+#user-name:focus, #user-email:focus, #user-comment:focus {
+    outline: lightslategray;
+    border: 1px solid  rgb(88, 189, 214);
+    box-shadow: 0px 0px 1px 0.5px rgb(88, 189, 214) ;
+}
+.comment-form-block{
+    padding-bottom: 100px;
+}
+.comment-form{
+    max-width: 800px;
+}

@@ -1,0 +1,45 @@
+#new-movies{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+#top-movies{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.flex-item{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 4px 4px 10px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.flex-item:hover{
+    background-color: orange;
+    border: 1px solid orange;
+    transition: 0.2s;
+}
+.movie-title{
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.main-title{
+    color: black;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: left;
+    border-bottom: 4px solid rgb(255, 177, 32);
+    padding-top: 30px;
+}
+#main{
+    font-family: 'Rosarivo', serif;
+    padding: 20px 40px 0 450px;
+}
