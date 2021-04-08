@@ -17,14 +17,14 @@ function Comments(){
     return(
             <div className="reviews-block">
                 <h2 className="title">Отзывы о фильме</h2>
-                {comments.map(item => <CommentItem username={item.username} comment={item.comment}/>)}
+                {comments.map(item => <CommentItem key={item.id} username={item.username} comment={item.comment}/>)}
             </div>
     )
 }
 
 function CommentItem(props){
     return(
-        <div className="review" key={props.id}>
+        <div className="review">
             <h3 className="user-name">{props.username}</h3>
             <p className="comment">{props.comment}</p>
         </div>
