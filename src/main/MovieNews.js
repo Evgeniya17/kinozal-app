@@ -33,7 +33,7 @@ function MovieNews(){
 function MovieNewsItem(props){
     return(
         <div className="movie-news-item">
-            <a className="news-title" href="#">{props.title}</a>
+            <a className="news-title" href="/#">{props.title}</a>
             <div className="content">
                 <img className="movie-news-img" src={props.image} alt={props.alt}/>
                 <p className="preview-text">{props.text}</p>

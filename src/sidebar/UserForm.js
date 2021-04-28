@@ -17,13 +17,13 @@ class UserForm extends Component{
             <div className="form-block">
                 <div className="form-header">
                     <h2 className="form-title ">Пользователь</h2>
-                    <h3 className="form-icon" icon-title="Вход" onClick={this.showHide}><i class="fas fa-sign-in-alt"/></h3> 
-                    <h3 className="form-icon" icon-title="Регистрция" onClick={this.showHide}><i class="far fa-user" /></h3> 
+                    <h3 className="form-icon" icon-title="Вход" onClick={this.showHide}><i className="fas fa-sign-in-alt"/></h3> 
+                    <h3 className="form-icon" icon-title="Регистрция" onClick={this.showHide}><i className="far fa-user" /></h3> 
                 </div>
                 <form id="user-form" action="#">
                     <div>
-                        <input type="text" name="name" id="name" placeholder="Логин"/>
-                        <input type="password" id="pwd" name="pwd" placeholder="Пароль"/>
+                        <input type="text" name="name" id="username" placeholder="Логин"/>
+                        <input type="password" id="user-pwd" name="pwd" placeholder="Пароль"/>
                         <input type="submit" id="enter-btn" value="Вход"/>
                     </div>
                 </form>

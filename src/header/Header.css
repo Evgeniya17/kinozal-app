@@ -9,6 +9,7 @@ header{
     padding-top: 100px;
     font-size: 64px;
     letter-spacing: 1rem;
+    margin-top: 0;
 }
 .header-about{
     text-align: center;

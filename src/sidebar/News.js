@@ -25,7 +25,7 @@ function NewsItem(props){
         <div className="news-item">
             <div className="news-content" >
                 <img className="news-img" src={props.image} alt={props.alt}/>
-                <a className="news-link" href="#">{props.link}</a>
+                <a className="news-link" href="/#">{props.link}</a>
             </div>
             <span className="news-date">{props.text}</span>
         </div>

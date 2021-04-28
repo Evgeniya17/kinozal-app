@@ -7,8 +7,6 @@ function FilmContent(){
                 <h2 className="title">Иллюзия обмана 2</h2>
                 <div className="iframe-video">
                     <iframe 
-                        width="900" 
-                        height="506"
                         src="https://www.youtube.com/embed/4I8rVcSQbic"
                         title="YouTube video player" 
                         frameborder="0" 

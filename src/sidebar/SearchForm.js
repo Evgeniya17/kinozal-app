@@ -7,7 +7,7 @@ function SearchForm(){
             <h2 className="search-title ">Поиск</h2>
             <form className="searchr-form" action="#">
                  <input type="text" name="search" id="search" placeholder="Поиск по сайту"/>
-                 <button className="search-btn" type="button"><i class="fas fa-search"></i></button>
+                 <button className="search-btn" type="button"><i className="fas fa-search"></i></button>
             </form>
         </div>
     )

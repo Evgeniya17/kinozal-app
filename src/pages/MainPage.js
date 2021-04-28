@@ -9,7 +9,7 @@ function MainPage() {
      <Sidebar/>
      <Main/>
      <Footer/>
-    </>
+     </>
   );
 }
 
