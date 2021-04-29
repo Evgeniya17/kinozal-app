@@ -20,14 +20,14 @@ class UserForm extends Component{
                     <h3 className="form-icon" icon-title="Вход" onClick={this.showHide}><i className="fas fa-sign-in-alt"/></h3> 
                     <h3 className="form-icon" icon-title="Регистрция" onClick={this.showHide}><i className="far fa-user" /></h3> 
                 </div>
-                <form id="user-form" action="#">
+                <form id="user-form" action="#" method='POST'>
                     <div>
                         <input type="text" name="name" id="username" placeholder="Логин"/>
                         <input type="password" id="user-pwd" name="pwd" placeholder="Пароль"/>
                         <input type="submit" id="enter-btn" value="Вход"/>
                     </div>
                 </form>
-                <form id="registration-form" action="#" >
+                <form id="registration-form" action="#" method='POST'>
                     <div>
                         <input type="text" name="name" id="name" placeholder="Логин"/>
                         <input type="password" id="pwd" name="pwd" placeholder="Пароль"/>
